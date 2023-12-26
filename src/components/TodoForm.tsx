@@ -58,7 +58,7 @@ const TodoForm = () => {
           </div>
           <button
             onClick={saveTodo}
-            className="bg-slate-800 text-slate-200 px-7 h-full rounded-md hover:bg-black hover:text-white duration-200"
+            className="bg-slate-800 text-slate-200 px-7 h-full rounded-md hover:bg-black hover:text-white duration-200 transition ease-in-out transform hover:scale-105 "
           >
             Add
           </button>

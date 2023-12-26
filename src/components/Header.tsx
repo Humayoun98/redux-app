@@ -7,7 +7,7 @@ const Header = () => {
     <div className="bg-slate-950 text-slate-200 border-b-[1px] border-b-slate-700">
       <Container className="py-6 flex items-center justify-between">
         <Link href={"/"}>
-          <h1 className="text-lg font-semibold hover:text-white duration-200">
+          <h1 className="text-lg font-semibold hover:text-white transition duration-300 ease-in-out transform hover:scale-105 ">
             Todo Redux Application
           </h1>
         </Link>

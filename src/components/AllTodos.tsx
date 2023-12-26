@@ -58,7 +58,12 @@ const AllTodos = () => {
       ) : (
         <div className="flex flex-col items-center py-10 gap-y-2">
           <p className="text-center text-lg font-medium">No todos available</p>
-          <Link href={"/"}>Add todo</Link>
+          <Link
+            href={"/"}
+            className="inline-block text-blue-400 text-lg border-2 p-5 mt-20 transition duration-300 ease-in-out transform hover:scale-105 hover:border-blue-700 hover:text-blue-700"
+          >
+            Add More Todo
+          </Link>
         </div>
       )}
     </>
